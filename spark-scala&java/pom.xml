@@ -2,14 +2,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.58.dsap.spark</groupId>
-    <artifactId>spark-demo</artifactId>
+    <artifactId>spark-scala-java</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.7</java.version>
         <scala.version>2.10.5</scala.version>
-        <scala.binary.version>2.10</scala.binary.version>
+        <scala.binary.version>2.10</scala.binary.version> 
         <PermGen>64m</PermGen>
         <MaxPermGen>512m</MaxPermGen>
         <spark.version>1.6.3</spark.version>
@@ -63,6 +63,7 @@
             <version>${spark.version}</version>
             <scope>provided</scope>
         </dependency>
+        
 
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
